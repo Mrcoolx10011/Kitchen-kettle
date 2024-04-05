@@ -14,7 +14,7 @@ let Footer = () => {
     return <div className={footerCss.footer}>
         <div className={footerCss.innerFooter}>
             <div className={footerCss.sec1}>
-                <div className={footerCss.logoBox}>Kitchen Kettle 2</div>
+                <div className={footerCss.logoBox}>Kitchen Kettle</div>
                 <div className={footerCss.filters}>
                     <div className={footerCss.filterBox}> <span>
                         <img className={footerCss.icon} src={indianFlag} alt="india flag" />
@@ -26,7 +26,7 @@ let Footer = () => {
             </div>
             <div className={footerCss.sec2}>
                 <div className={[footerCss.box1, footerCss.box].join(' ')}>
-                    <div className={footerCss.boxTtl}>ABOUT TOMATO</div>
+                    <div className={footerCss.boxTtl}>ABOUT Kitchen Kettle</div>
                     <a href="" className={footerCss.boxOpt}>Who We Are</a>
                     <a href="" className={footerCss.boxOpt}>Blog</a>
                     <a href="" className={footerCss.boxOpt}>Work With Us</a>
@@ -34,11 +34,11 @@ let Footer = () => {
                     <a href="" className={footerCss.boxOpt}>Report Fraud</a>
                 </div>
                 <div className={[footerCss.box2, footerCss.box].join(' ')}>
-                    <div className={footerCss.boxTtl}>TOMAVERSE</div>
-                    <a href="" className={footerCss.boxOpt}>Tomato</a>
+                    <div className={footerCss.boxTtl}>KETTLEVERSE</div>
+                    <a href="" className={footerCss.boxOpt}>Kitchen Kettle</a>
                     <a href="" className={footerCss.boxOpt}>Feeding India</a>
                     <a href="" className={footerCss.boxOpt}>Hyperpure</a>
-                    <a href="" className={footerCss.boxOpt}>Tomaland</a>
+                    <a href="" className={footerCss.boxOpt}>Kettleland</a>
                 </div>
                 <div className={[footerCss.box3, footerCss.box].join(' ')}>
                     <div className={footerCss.boxTtl}>FOR RESTAURANTS</div>
@@ -46,7 +46,7 @@ let Footer = () => {
                     <a href="" className={footerCss.boxOpt}>Apps For You</a>
 
                     <div className={footerCss.boxTtl}>FOR ENTERPRISES</div>
-                    <a href="" className={footerCss.boxOpt}>Tomato For Work</a>
+                    <a href="" className={footerCss.boxOpt}>Kitchen Kettle For Work</a>
                 </div>
                 <div className={[footerCss.box4, footerCss.box].join(' ')}>
                     <div className={footerCss.boxTtl}>LEARN MORE</div>
@@ -80,7 +80,7 @@ let Footer = () => {
             </div>
             <hr className={footerCss.breakLine} />
             <div className={footerCss.sec3}>
-                By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Tomato™ Ltd. All rights reserved.
+                By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2024 © Kitchen Kettle™ Ltd. All rights reserved.
             </div>
         </div>
     </div>
