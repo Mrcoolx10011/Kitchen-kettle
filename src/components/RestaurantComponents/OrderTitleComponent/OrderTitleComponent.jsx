@@ -10,9 +10,9 @@ const OrderTitleComponent = () => {
     return <div className={css.outerDiv}>
         <div className={css.innerDiv}>
             <div className={css.left}>
-                <div className={css.title}>Krupa Mess & Tiffins</div>
-                <div className={css.specials}>South Indian, Chinese, North Indian, Sichuan, Pizza</div>
-                <div className={css.address}>Abids, Hyderabad</div>
+                <div className={css.title}>Legends Of Punjab - By Pepperazi</div>
+                <div className={css.specials}>South Indian, Chinese, North Indian, Sichuan,  Ice Cream, Desserts,Pizza</div>
+                <div className={css.address}>Gulbai Tekra, Ahmedabad</div>
                 <div className={css.timings}>
                     <span className={css.opORclo}>Open now -</span>
                     <span className={css.time}>10am - 11pm (Today)</span>
@@ -26,8 +26,8 @@ const OrderTitleComponent = () => {
                 </div>
             </div>
             <div className={css.right}>
-                <RatingUtil rating="4.1" count="601" txt="Dining Reviews" />
-                <RatingUtil rating="3.6" count="37.3k" txt="Delivery Reviews" />
+                <RatingUtil rating="3." count="765" txt="Dining Reviews" />
+                <RatingUtil rating="4.1" count="1.3k" txt="Delivery Reviews" />
             </div>
         </div>
     </div>

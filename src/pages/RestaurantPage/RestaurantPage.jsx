@@ -19,11 +19,12 @@ const RestaurantPage = () => {
             /
             India
             /
-            Hyderabad
+            Ahmedabad
             /
-            Hyderabad City
+            Ahmedabad West
             /
-            Indira Nagar
+            Gulbai Tekra
+
         </div>
     </div>
     <HeroComponent />

@@ -71,7 +71,7 @@ const PhotosComponent = () => {
   const [state, setState] = useState(allPhotosData)
 
   return <div className={css.outerDiv}>
-    <div className={css.ttl}>Krupa Mess & Tiffins Photos</div>
+    <div className={css.ttl}>Legends Of Punjab - By Pepperazi</div>
     <div className={css.btns}>
       <RedButton txt="All" count={23} onClick={() => setState(allPhotosData)} />
       <WhiteButton txt="Food" count={17} onClick={() => setState(foodPhotosData)} />

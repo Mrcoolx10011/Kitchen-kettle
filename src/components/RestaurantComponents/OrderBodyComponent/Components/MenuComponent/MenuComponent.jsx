@@ -22,7 +22,7 @@ const MenuComponent = () => {
   ]
 
   return <div className={css.outerDiv}>
-      <div className={css.ttl}>Krupa Mess & Tiffins Menu</div>
+      <div className={css.ttl}>Legends Of Punjab - By Pepperazi</div>
         <div className={css.menuCard}>
           {menuCards?.map((val, id) => {
             return <MenuCard key={id} imgSrc={val.imgSrc} ttl={val.ttl} pages={val.pages} />

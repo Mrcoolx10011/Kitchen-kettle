@@ -18,8 +18,8 @@ const OverviewFieldComponent = () => {
   const {city, hotel, page=""} = useParams();
 
   const data = {
-    phone: "9988098812",
-    address: "50000, kukatpally, Hyderabad, Telangane, India",
+    phone: "7405012175",
+    address: "1st Floor, Tirupati House, Near Panjrapole Cross Roads, Gulbai Tekra, Ahmedabad",
     lat: 11.11,
     lng: 18.31
   }
@@ -28,19 +28,19 @@ const OverviewFieldComponent = () => {
     {
       id: 1,
       imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      name: "Legends Of Punjab",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
+      address: "Chandkheda, Ahmedabad",
       link: "#"
     },
     {
       id: 2,
       imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      name: "Nini's Kitchen",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
+      address: "C G Road, Ahmedabad",
       link: "#"
     }
   ]
