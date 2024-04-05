@@ -2,6 +2,16 @@ import { useState } from "react";
 
 import css from "./RecentlyViewed.module.css";
 
+import image1 from "/images/Pizzaimage1.jpg";
+import image2 from "/images/Pizzaimage2.jpg";
+import image3 from "/images/Pizzaimage3.jpg";
+import image4 from "/images/Pizzaimage4.jpg";
+import image5 from "/images/Pizzaimage5.jpg";
+import image6 from "/images/Pizzaimage6.jpg";
+import image7 from "/images/Pizzaimage7.jpg";
+import image8 from "/images/Pizzaimage8.jpg";
+import image9 from "/images/Pizzaimage9.jpg";
+import image10 from "/images/Pizzaimage10.jpg";
 import happyHoursImg from "/images/happyhours.jpg";
 
 import RecentlyViewedCard from "../../../../Cards/RecentlyViewedCard/RecentlyViewedCard";
@@ -12,8 +22,8 @@ const RecentlyViewed = ({ hashId }) => {
   let [data, setData] = useState([
     {
       id: 1,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image1,
+      name: "Margherita Pizza",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -21,8 +31,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 2,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image2,
+      name: "Veggie Pizza",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -30,8 +40,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 3,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image3,
+      name: "Pizza al taglio",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -39,8 +49,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 4,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image4,
+      name: "Caprese Pizza",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -48,8 +58,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 5,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image5,
+      name: "Pizzette",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -57,8 +67,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 6,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image6,
+      name: "Pizza alla diavola",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -66,8 +76,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 7,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image7,
+      name: "Miami Pizza",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -75,8 +85,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 8,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image8,
+      name: "Mexico Pizza0",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -84,8 +94,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 9,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image9,
+      name: "Pizza al padellino",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -93,8 +103,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 10,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image10,
+      name: "Grilled Pizza",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -102,8 +112,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 11,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image1,
+      name: "St. Louis-Style Pizza",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -111,8 +121,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 12,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image2,
+      name: "Australian Pizza",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -120,8 +130,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 13,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image3,
+      name: "Pizza al tonno",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -129,8 +139,8 @@ const RecentlyViewed = ({ hashId }) => {
     },
     {
       id: 14,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      imgSrc: image4,
+      name: "Pizza boscaiola",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",

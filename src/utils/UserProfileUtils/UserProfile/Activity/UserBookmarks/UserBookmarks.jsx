@@ -2,6 +2,11 @@ import { useState } from "react";
 
 import css from "./UserBookmarks.module.css";
 
+import image1 from "/images/Pizzaimage1.jpg";
+import image2 from "/images/Pizzaimage2.jpg";
+import image3 from "/images/Pizzaimage3.jpg";
+import image4 from "/images/Pizzaimage4.jpg";
+import image5 from "/images/Pizzaimage5.jpg";
 import happyHoursImg from "/images/happyhours.jpg";
 
 import UserDetCard from "../../../UserDetCard/UserDetCard";
@@ -12,73 +17,73 @@ const UserBookmarks = ({ hashId }) => {
   let [data, setData] = useState([
     {
       id: 1,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image1,
+      name: "Margherita Pizza"
     },
     {
       id: 2,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image2,
+      name: "Caprese Pizza"
     },
     {
       id: 3,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image3,
+      name: "Veggie Pizza"
     },
     {
       id: 4,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image4,
+      name: "Pizza al taglio"
     },
     {
       id: 5,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image5,
+      name: "Pizzette"
     },
     {
       id: 6,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image1,
+      name: "Margherita Pizza"
     },
     {
       id: 7,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image2,
+      name: "Pizza al taglio"
     },
     {
       id: 8,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image3,
+      name: "Caprese Pizza"
     },
     {
       id: 9,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image4,
+      name: "Veggie Pizza"
     },
     {
       id: 10,
-      imgSrc: happyHoursImg,
+      imgSrc: image5,
       name: "prabhu"
     },
     {
       id: 11,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image1,
+      name: "Pizzette"
     },
     {
       id: 12,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image3,
+      name: "Grilled Pizza"
     },
     {
       id: 13,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image5,
+      name: "Pizza boscaiola"
     },
     {
       id: 14,
-      imgSrc: happyHoursImg,
-      name: "prabhu"
+      imgSrc: image2,
+      name: "Pizza al padellino"
     },
   ]);
   let [isData, setIsData] = useState(true);

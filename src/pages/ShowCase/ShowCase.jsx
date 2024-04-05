@@ -184,8 +184,8 @@ let ShowCase = () => {
             proExtraB: false,
             off: "30",
             proExtra: "40",
-            name: "Paradise Hotel",
-            rating: '3.6',
+            name: "The Raj Banquets & Hotels",
+            rating: '4.6',
             imgSrc: biryaniSCImg
         },
         {
@@ -195,8 +195,8 @@ let ShowCase = () => {
             proExtraB: false,
             off: "30",
             proExtra: "40",
-            name: "Mangal Hotel",
-            rating: '2.6',
+            name: "Kalrav Rastaurant & Banquet",
+            rating: '4.4',
             imgSrc: biryaniSCImg2
         },
         {
@@ -206,7 +206,7 @@ let ShowCase = () => {
             proExtraB: true,
             off: "30",
             proExtra: "40",
-            name: "Chapathi Hotel",
+            name: "Yanki Sizzlers",
             rating: '4.6',
             imgSrc: chapathiImg
         },
@@ -217,7 +217,7 @@ let ShowCase = () => {
             proExtraB: false,
             off: "30",
             proExtra: "40",
-            name: "Fish Mandi Hotel",
+            name: "Aangan Garden Restaurant",
             rating: '4.9',
             imgSrc: fishImg
         },
@@ -228,7 +228,7 @@ let ShowCase = () => {
             proExtraB: true,
             off: "30",
             proExtra: "40",
-            name: "MangalCaptain Hotel",
+            name: "The Jungle Bhookh",
             rating: '4.6',
             imgSrc: icecreamImg
         },
@@ -250,7 +250,7 @@ let ShowCase = () => {
             proExtraB: false,
             off: "30",
             proExtra: "40",
-            name: "Pizza Hotel",
+            name: "Grand Rio Restaurant",
             rating: '3.2',
             imgSrc: pizzaSCImg
         },
@@ -261,7 +261,7 @@ let ShowCase = () => {
             proExtraB: false,
             off: "30",
             proExtra: "40",
-            name: "Fish Mandi Hotel",
+            name: "Food Inn Fine Dine",
             rating: '4.6',
             imgSrc: fishImg
         },
@@ -272,7 +272,7 @@ let ShowCase = () => {
             proExtraB: true,
             off: "30",
             proExtra: "40",
-            name: "MangalCaptain Hotel",
+            name: "Cafe De Italiano",
             rating: '2.6',
             imgSrc: icecreamImg
         },
