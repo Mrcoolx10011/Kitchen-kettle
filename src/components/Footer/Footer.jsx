@@ -14,7 +14,7 @@ let Footer = () => {
     return <div className={footerCss.footer}>
         <div className={footerCss.innerFooter}>
             <div className={footerCss.sec1}>
-                <div className={footerCss.logoBox}>Tomato</div>
+                <div className={footerCss.logoBox}>Kitchen Kettle</div>
                 <div className={footerCss.filters}>
                     <div className={footerCss.filterBox}> <span>
                         <img className={footerCss.icon} src={indianFlag} alt="india flag" />
