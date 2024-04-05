@@ -18,15 +18,15 @@ const FavoriteOrders = () => {
         {
             id:1,
             imgSrc: orderonlineImg,
-            name:"Paradise Biryani",
-            address:"Kukatpally, Hyd",
-            orderNum:"211",
+            name:"Pizza Hut",
+            address:"Manek Chowk, Amd",
+            orderNum:"496",
             items:[{
-                itemName: "Panner Biryani",
+                itemName: "Margherita Pizza",
                 qty: 1
             },
             {
-              itemName: "Mini chicken Biryani ( Serves - Small Hunger)",
+              itemName: "Margherita Pizza ( Serves - Large Pizza)",
               qty: 1
             }],
             orderedOn: new Intl.DateTimeFormat("en" , {

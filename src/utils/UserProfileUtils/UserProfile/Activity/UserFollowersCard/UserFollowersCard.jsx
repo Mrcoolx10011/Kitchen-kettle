@@ -17,72 +17,72 @@ const UserFollowersCard = ({ hashId, userData }) => {
     {
       id: 1,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 2,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 3,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 4,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 5,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 6,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 7,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 8,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 9,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 10,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 11,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 12,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 13,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
     {
       id: 14,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Pizza Hut"
     },
   ]);
   let [isData, setIsData] = useState(true);

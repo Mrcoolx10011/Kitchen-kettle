@@ -2,6 +2,10 @@ import { useState } from "react";
 
 import css from "./UserPhotosCard.module.css";
 
+import image1 from "/images/Pizzaimage1.jpg";
+import image2 from "/images/Pizzaimage2.jpg";
+import image3 from "/images/Pizzaimage3.jpg";
+import image4 from "/images/Pizzaimage4.jpg";
 import happyHoursImg from "/images/happyhours.jpg";
 
 import SmallCardImg from "../../../../Cards/card6/SmallCardImg";
@@ -12,19 +16,19 @@ const UserPhotosCard = ({ hashId }) => {
   let [data, setData] = useState([
     {
       id: 1,
-      imgSrc: happyHoursImg,
+      imgSrc: image1,
     },
     {
       id: 2,
-      imgSrc: happyHoursImg,
+      imgSrc: image2,
     },
     {
       id: 3,
-      imgSrc: happyHoursImg,
+      imgSrc: image3,
     },
     {
       id: 4,
-      imgSrc: happyHoursImg,
+      imgSrc: image4,
     },
   ]);
   let [isData, setIsData] = useState(true);
