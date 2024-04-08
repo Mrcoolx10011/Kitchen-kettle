@@ -56,7 +56,7 @@ const User = () => {
           <LeftSideCardPanel name='ONLINE ORDERING' data={data2} />
           <LeftSideCardPanel name='TABLE BOOKING' data={data5} />
           <SuggestedFollowCard name='SUGGESTED FOODIES TO FOLLOW' data={data3} />
-          <ProfileWidget name='ZOMATO PROFILE WIDGET' tag="Showcase your Zomato profile on your blog." data={data4} />
+          <ProfileWidget name='Kitchen-kettle PROFILE WIDGET' tag="Showcase your Kitchen-kettle profile on your blog." data={data4} />
         </div>
         <div className={css.rightBox}>
           <UserProfileRightsideBar />

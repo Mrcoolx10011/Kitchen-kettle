@@ -85,6 +85,7 @@ const UserBookmarks = ({ hashId }) => {
       imgSrc: image2,
       name: "Pizza al padellino"
     },
+    
   ]);
   let [isData, setIsData] = useState(true);
 

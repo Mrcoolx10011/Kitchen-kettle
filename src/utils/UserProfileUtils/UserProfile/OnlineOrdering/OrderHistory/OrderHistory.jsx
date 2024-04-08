@@ -16,51 +16,17 @@ const OrderHistory = ({hashId}) => {
 
     let [data, setData] = useState([
         {
-            id:1,
-            imgSrc: orderonlineImg,
-            name:"Paradise Biryani",
-            address:"Kukatpally, Hyd",
-            orderNum:"211",
-            items:[{
-                itemName: "Panner Biryani",
-                qty: 1
-            },
-            {
-              itemName: "Mini chicken Biryani ( Serves - Small Hunger)",
-              qty: 1
-            }],
-            orderedOn: new Intl.DateTimeFormat("en" , {
-              timeStyle: "medium",
-              dateStyle: "short"
-            })?.format(new Date()),
-            itemTotal:"150.00",
-            coupon: {
-                couponName:"TryNew",
-                discount:"50"
-            },
-            taxesandcharges:"30.00",
-            totalSavings:"75.00",
-            grandTotal:"105.00",
-            paymentType:"Using Card",
-            orderStatus: "Delivered",
-            phoneNum:"8074786491",
-            deliveredTo:"My home, kuakpally, hyderabad",
-            fssaiNo:"13618013000777",
-            fav: false,
-            summaryLinkId:"#"
-        },
-        {
-          id:2,
+          id:1,
           imgSrc: orderonlineImg,
-          name:"Paradise Biryani",
-          address:"Kukatpally, Hyd",
+          name:"Mirch Masala",
+          address:"C G Road, Ahmedabad",
           orderNum:"211",
           items:[{
-              itemName: "Panner Biryani",
+              itemName: "Paneer Tikka Masala",
               qty: 1
           },
           {
-            itemName: "Mini chicken Biryani ( Serves - Small Hunger)",
+            itemName: "Tandoori Butter Roti",
             qty: 1
           }],
           orderedOn: new Intl.DateTimeFormat("en" , {
@@ -80,18 +46,58 @@ const OrderHistory = ({hashId}) => {
           phoneNum:"8074786491",
           deliveredTo:"My home, kuakpally, hyderabad",
           fssaiNo:"13618013000777",
-          fav: false,
+          fav: true,
+          summaryLinkId:"#"
+        },
+        {
+         
+          id:2,
+          imgSrc: orderonlineImg,
+          name:"Mirch Masala",
+          address:"C G Road, Ahmedabad",
+          orderNum:"211",
+          items:[{
+              itemName: "Paneer Tikka Masala",
+              qty: 1
+          },
+          {
+            itemName: "Tandoori Butter Roti",
+            qty: 1
+          }],
+          orderedOn: new Intl.DateTimeFormat("en" , {
+            timeStyle: "medium",
+            dateStyle: "short"
+          })?.format(new Date()),
+          itemTotal:"150.00",
+          coupon: {
+              couponName:"TryNew",
+              discount:"50"
+          },
+          taxesandcharges:"30.00",
+          totalSavings:"75.00",
+          grandTotal:"105.00",
+          paymentType:"Using Card",
+          orderStatus: "Delivered",
+          phoneNum:"8074786491",
+          deliveredTo:"My home, kuakpally, hyderabad",
+          fssaiNo:"13618013000777",
+          fav: true,
           summaryLinkId:"#"
       },
       {
+       
         id:3,
         imgSrc: orderonlineImg,
-        name:"Paradise Biryani",
-        address:"Kukatpally, Hyd",
+        name:"Mirch Masala",
+        address:"C G Road, Ahmedabad",
         orderNum:"211",
         items:[{
-            itemName: "Panner Biryani",
+            itemName: "Paneer Tikka Masala",
             qty: 1
+        },
+        {
+          itemName: "Tandoori Butter Roti",
+          qty: 1
         }],
         orderedOn: new Intl.DateTimeFormat("en" , {
           timeStyle: "medium",
@@ -110,7 +116,7 @@ const OrderHistory = ({hashId}) => {
         phoneNum:"8074786491",
         deliveredTo:"My home, kuakpally, hyderabad",
         fssaiNo:"13618013000777",
-        fav: false,
+        fav: true,
         summaryLinkId:"#"
     }
     ]);

@@ -15,13 +15,13 @@ const YoursBooking = ({hashId}) => {
     let data = [
         {
             id: 1,
-            title: "Hostel",
-            address: "Dilshuk Nagar, Hyderabad",
+            title: "PG",
+            address: "patan city, patan",
         },
         {
             id:2,
-            title: "Hostel2",
-            address: "Manjeera Trinity, Kukatpally, Hyderabad",
+            title: "Hostel",
+            address: "GES boy, Katpur, patan",
         }
     ]
 

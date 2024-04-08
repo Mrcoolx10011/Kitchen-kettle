@@ -44,7 +44,7 @@ const FavoriteOrders = () => {
             paymentType:"Using Card",
             orderStatus: "Delivered",
             phoneNum:"8074786491",
-            deliveredTo:"My home, kuakpally, hyderabad",
+            deliveredTo:"PG, patan city, patan",
             fssaiNo:"13618013000777",
             fav: true,
             summaryLinkId:"#"

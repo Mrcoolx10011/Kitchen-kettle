@@ -26,7 +26,7 @@ const RecentlyViewed = ({ hashId }) => {
       name: "Margherita Pizza",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
+      address: "C G Road, Ahmedabad",
       link: "#"
     },
     {
@@ -146,6 +146,7 @@ const RecentlyViewed = ({ hashId }) => {
       address: "Kukatpally, Hyd",
       link: "#"
     },
+    
   ]);
   let [isData, setIsData] = useState(true);
 
