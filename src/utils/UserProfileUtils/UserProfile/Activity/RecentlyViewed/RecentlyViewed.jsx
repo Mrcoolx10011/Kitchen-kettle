@@ -13,16 +13,16 @@ const RecentlyViewed = ({ hashId }) => {
     {
       id: 1,
       imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      name: "Mirch Masala",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
+      address: "C G Road, Ahmedabad",
       link: "#"
     },
     {
       id: 2,
       imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      name: "Mirch Masala",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -31,7 +31,7 @@ const RecentlyViewed = ({ hashId }) => {
     {
       id: 3,
       imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      name: "Mirch Masala",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
@@ -40,102 +40,13 @@ const RecentlyViewed = ({ hashId }) => {
     {
       id: 4,
       imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      name: "Mirch Masala",
       ratingsDining: 4.2,
       ratingsDelivery: 4.6,
       address: "Kukatpally, Hyd",
       link: "#"
     },
-    {
-      id: 5,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
-      ratingsDining: 4.2,
-      ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
-      link: "#"
-    },
-    {
-      id: 6,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
-      ratingsDining: 4.2,
-      ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
-      link: "#"
-    },
-    {
-      id: 7,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
-      ratingsDining: 4.2,
-      ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
-      link: "#"
-    },
-    {
-      id: 8,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
-      ratingsDining: 4.2,
-      ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
-      link: "#"
-    },
-    {
-      id: 9,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
-      ratingsDining: 4.2,
-      ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
-      link: "#"
-    },
-    {
-      id: 10,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
-      ratingsDining: 4.2,
-      ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
-      link: "#"
-    },
-    {
-      id: 11,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
-      ratingsDining: 4.2,
-      ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
-      link: "#"
-    },
-    {
-      id: 12,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
-      ratingsDining: 4.2,
-      ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
-      link: "#"
-    },
-    {
-      id: 13,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
-      ratingsDining: 4.2,
-      ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
-      link: "#"
-    },
-    {
-      id: 14,
-      imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
-      ratingsDining: 4.2,
-      ratingsDelivery: 4.6,
-      address: "Kukatpally, Hyd",
-      link: "#"
-    },
+    
   ]);
   let [isData, setIsData] = useState(true);
 

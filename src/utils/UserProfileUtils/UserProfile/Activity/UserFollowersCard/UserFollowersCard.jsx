@@ -17,72 +17,72 @@ const UserFollowersCard = ({ hashId, userData }) => {
     {
       id: 1,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 2,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 3,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 4,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 5,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 6,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 7,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 8,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 9,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 10,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 11,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 12,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 13,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
     {
       id: 14,
       imgSrc: happyHoursImg,
-      name: "prabhu"
+      name: "Mirch Masala"
     },
   ]);
   let [isData, setIsData] = useState(true);

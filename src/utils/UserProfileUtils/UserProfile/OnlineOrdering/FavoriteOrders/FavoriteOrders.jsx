@@ -18,15 +18,15 @@ const FavoriteOrders = () => {
         {
             id:1,
             imgSrc: orderonlineImg,
-            name:"Paradise Biryani",
-            address:"Kukatpally, Hyd",
+            name:"Mirch Masala",
+            address:"C G Road, Ahmedabad",
             orderNum:"211",
             items:[{
-                itemName: "Panner Biryani",
+                itemName: "Paneer Tikka Masala",
                 qty: 1
             },
             {
-              itemName: "Mini chicken Biryani ( Serves - Small Hunger)",
+              itemName: "Tandoori Butter Roti",
               qty: 1
             }],
             orderedOn: new Intl.DateTimeFormat("en" , {
@@ -44,7 +44,7 @@ const FavoriteOrders = () => {
             paymentType:"Using Card",
             orderStatus: "Delivered",
             phoneNum:"8074786491",
-            deliveredTo:"My home, kuakpally, hyderabad",
+            deliveredTo:"PG, patan city, patan",
             fssaiNo:"13618013000777",
             fav: true,
             summaryLinkId:"#"

@@ -13,14 +13,14 @@ const UserBlogPosts = ({ hashId }) => {
     {
       id: 1,
       imgSrc: happyHoursImg,
-      name: "Paradise Biryani",
+      name: "Mirch Masala",
       time: new Intl.DateTimeFormat().format(new Date())?.toString(),
       link: "#"
     },
     {
       id: 2,
       imgSrc: happyHoursImg,
-      name: "Koushil Mankali",
+      name: "Mirch Masala",
       time: new Intl.DateTimeFormat().format(new Date())?.toString(),
       link: "#"
     }
